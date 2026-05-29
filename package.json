@@ -1,0 +1,22 @@
+{
+  "name": "ai-customer-assistant",
+  "version": "1.1.1",
+  "description": "A simple chat assistant package.",
+  "main": "library/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "sinon": "^18.0.0"
+  },
+  "type": "module"
+}
